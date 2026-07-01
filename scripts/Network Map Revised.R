@@ -5,8 +5,9 @@ library(ggraph)
 library(ggplot2)
 library(ggmosaic)
 library(tidyverse)
+library(readxl)
 
-d <- prelim2
+d <- read_excel("data/Final Extraction Form ALL.xlsx")
 
 consolidated_types <- c(
   # Climate change and related issues
