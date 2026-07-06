@@ -237,14 +237,15 @@ table_by_set_gt <- table_by_set_with_pct %>%
               columns = c(Survey_Yes, Survey_Mixed, Survey_No, Survey_Total)) %>%
   tab_spanner(label = "Experiments",
               columns = c(Experiments_Yes, Experiments_Mixed, Experiments_No, Experiments_Total)) %>%
+  
   cols_label(
-    Survey_Yes        = "Yes",
+    Survey_Yes        = "Supportive",
     Survey_Mixed      = "Mixed",
-    Survey_No         = "No",
+    Survey_No         = "Non-supportive",
     Survey_Total      = "Total",
-    Experiments_Yes   = "Yes",
+    Experiments_Yes   = "Supportive",
     Experiments_Mixed = "Mixed",
-    Experiments_No    = "No",
+    Experiments_No    = "Non-supportive",
     Experiments_Total = "Total"
   ) %>%
   cols_move(columns = Survey_Total,      after = Survey_No) %>%
@@ -433,13 +434,13 @@ table_by_set_prereg_gt <- table_by_set_prereg %>%
     columns = c(Experiments_Yes, Experiments_Mixed, Experiments_No, Experiments_Total)
   ) %>%
   cols_label(
-    Survey_Yes = "Yes",
+    Survey_Yes = "Supportive",
     Survey_Mixed = "Mixed",
-    Survey_No = "No",
+    Survey_No = "Non-supportive",
     Survey_Total = "Total",
-    Experiments_Yes = "Yes",
+    Experiments_Yes = "Supportive",
     Experiments_Mixed = "Mixed",
-    Experiments_No = "No",
+    Experiments_No = "Non-supportive",
     Experiments_Total = "Total"
   ) %>%
   cols_move(Survey_Total, after = Survey_No) %>%
@@ -463,3 +464,4 @@ table_by_set_prereg_gt <- table_by_set_prereg %>%
 
 # Display table
 table_by_set_prereg_gt
+
