@@ -27,20 +27,14 @@ The repository is organised as follows:
   - `screening/` – inclusion/exclusion decisions and disagreement resolution  
 
 - **`materials/`**
-  - Robustness Check 1 (preregistrations only)  
-  - Robustness Check 2 (updated search)  
   - Codebook (variable definitions and coding scheme)  
   - LLM prompts used for screening, summarisation, and data extraction  
 
 - **`scripts/`**
   - R scripts for data processing, analysis, and visualisation  
 
-- **`results/`**
-  - Output tables and figures generated from the analyses  
-
-- **`docs/`**
   - Supplementary materials  
-  - Citations underlying heatmap constructions  
+  - figures and tables
 
 ---
 
