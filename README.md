@@ -100,7 +100,7 @@ Full supplementary materials, including detailed tables, heatmaps, and methodolo
 If you use this repository, please cite:
 
 Syme, K. L. (2026).  
-*Looking Ahead to Act Together: An Integrative Review and Theoretical Framework of Future Cognition and Long-Term Collective Action.*
+*Looking Ahead to Act Together: An Integrative Review and Theoretical Framework of Future-Oriented Cognition, Appraisals, and Leverage for Long-Term Collective Action.*
 
 ---
 
